@@ -6,13 +6,13 @@ using UnityEngine.AI;
 public class AI : MonoBehaviour
 {
     public Transform Player;
-    UnityEngine.AI.NavMeshAgent agent;
+    NavMeshAgent agent;
     public float attackRadius = 5;
 
     // Start is called before the first frame update
     void Start()
     {
-        agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+        agent = GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
